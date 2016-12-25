@@ -12930,7 +12930,7 @@ Trained Model Saved.
 <p>Less layers after 10 epochs:<br>
 2 convolutional, 3 fully connected = .976<br>
 1 convolutional, 3 fully connected = .944<br>
-2 convolutional, 2 fully connected = .979 (this came out slightly better than the 2 conv and 3 fully connected above, but given the similarity I preferred the slightly deeper model as there was almost no difference in speed. The slightly more complex model did end up performing on the true test data as well).</p>
+2 convolutional, 2 fully connected = .979 (this came out slightly better than the 2 convolutional and 3 fully connected above, but given the similarity I preferred the slightly deeper model as there was almost no difference in speed. I chose this because I thought the additional layer that included dropout would help against overfitting).</p>
 <p>As the CNN with 2 convolutional layers, 3 fully connected, a learning rate of .005 and a batch size 150 appears to result in the optimal CNN, I utilized this for the final model.</p>
 
 </div>
